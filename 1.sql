@@ -71,3 +71,8 @@ VALUES (1, 1, 8, 1),
 select * from students;
 
 select * from students join class on students.lop = class.id_l;
+select * from students;
+
+SELECT *
+FROM Subject
+WHERE creadit < 10;
